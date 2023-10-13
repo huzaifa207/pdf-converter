@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    main {
+        @apply h-[80vh] px-4
+    }
+
+    header, footer {
+        @apply h-[10vh] z-20 flex items-center
+    }
+}
+
+@layer components {
+    .icon-container {
+        @apply flex flex-col flex-1 rounded-2xl gap-1 p-1 text-xs items-center justify-between focus:bg-onPrimary focus:text-primary focus:stroke-primary focus:outline-none
+    }
+
+    .square-buttons {
+        @apply flex flex-col flex-1 aspect-square text-xxs rounded-2xl gap-1 p-1 items-center justify-start text-center focus:bg-onPrimary focus:text-primary focus:stroke-primary focus:outline-none shadow-xl
+    }
+
+    .btn {
+        @apply flex items-center gap-2 text-xs text-white underline bg-gradient-to-r from-[#6D3FFF] to-[#512FD6] px-5 py-3 rounded-xl shadow-2xl
+    }
+}
+
+@layer utilities {
+    .selected {
+        @apply bg-onPrimary text-primary stroke-primary outline-none;
+    }
+
+}
