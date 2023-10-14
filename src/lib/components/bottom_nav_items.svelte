@@ -4,7 +4,7 @@
 	import Home from '$lib/svgs/home.svelte';
 	import Converted from '$lib/svgs/converted.svelte';
 	import Scanner from '$lib/svgs/scanner.svelte';
-	import { bottomNav, homeNav } from '$lib/store.js';
+	import { bottomNav, profileNav, homeNav } from '$lib/store.js';
 
 	export let data, class_;
 
@@ -12,9 +12,10 @@
 
 	let handleClick = () => {
 		bottomNav.set(data.id);
-		homeNav.set(null);
+		profileNav.set(null);
 
 		if (data.id === 0) {
+			homeNav.set(null)
 			goto('/');
 		} else if (data.id === 1) {
 			goto('/converted');

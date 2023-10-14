@@ -15,11 +15,11 @@
 
 @layer components {
     .icon-container {
-        @apply flex flex-col flex-1 rounded-2xl gap-1 p-1 text-xs items-center justify-between focus:bg-onPrimary focus:text-primary focus:stroke-primary focus:outline-none
+        @apply flex flex-col flex-1 rounded-2xl gap-1 p-1 text-xs items-center justify-between
     }
 
     .square-buttons {
-        @apply flex flex-col flex-1 aspect-square text-xxs rounded-2xl gap-1 p-1 items-center justify-start text-center focus:bg-onPrimary focus:text-primary focus:stroke-primary focus:outline-none shadow-xl
+        @apply flex flex-col flex-1 aspect-square text-xxs rounded-2xl gap-1 p-1 items-center justify-start text-center shadow-xl
     }
 
     .btn {

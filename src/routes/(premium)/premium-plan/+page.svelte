@@ -34,12 +34,12 @@
             <p>Basic</p>
         </div>
         <div class="box">
-            <h2 class="font-semibold">Weekly Plan</h2>
+            <h2 class="font-semibold">Monthly Plan</h2>
             <p>Rs:600</p>
             <p>Basic</p>
         </div>
         <div class="box">
-            <h2 class="font-semibold">Weekly Plan</h2>
+            <h2 class="font-semibold">Yearly Plan</h2>
             <p>Rs:600</p>
             <p>Basic</p>
         </div>
